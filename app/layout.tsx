@@ -8,8 +8,15 @@ import type React from "react" // Added import for React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Parsa Ghiasian | Portfolio",
   description: "Personal portfolio website",
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.png' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({

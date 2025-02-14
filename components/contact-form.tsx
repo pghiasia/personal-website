@@ -34,6 +34,7 @@ export default function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
           required
           rows={6}
+          className="resize-none"
         />
       </div>
       <Button type="submit" className="w-full">

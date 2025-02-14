@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react"
 
-const titles = ["Parsa Ghiasian", "a Software Engineer </>💻", "an AI Guru 🤖🧠"]
+const titles = ["Parsa Ghiasian", "a Software Engineer </>", "an AI Guru [•_•]"]
 
 export default function AnimatedText() {
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0)

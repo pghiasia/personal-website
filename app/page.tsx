@@ -128,7 +128,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12">Let's Connect</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Let&apos;s Connect</h2>
           <ContactForm />
         </div>
       </section>

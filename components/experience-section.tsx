@@ -21,6 +21,17 @@ export default function ExperienceSection() {
               "Earned 3 Google certifications covering ads search, performance measurement and online analytics",
             ]}
           />
+          <ExperienceCard
+            title="AI Software Engineer (Co-op)"
+            company="iGEM Design Team"
+            location="Waterloo, Ontario"
+            date="Jan 2024 - Apr 2024"
+            points={[
+              "Engineered AI-driven copywriting prompt templates and scripts using JasperAI and GPT-4",
+              "Developed system prompts tailored to brand identity",
+              "Earned 3 Google certifications covering ads search, performance measurement and online analytics",
+            ]}
+          />
           {/* Add more experience cards as needed */}
         </div>
       </TabsContent>

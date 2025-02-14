@@ -51,7 +51,7 @@ export default function AnimatedText() {
   }
 
   return (
-    <span className="inline-block min-w-[300px]">
+    <span className="inline-block min-w-[300px] h-[40px]">
       {hasStarted ? text : ""}
     </span>
   )

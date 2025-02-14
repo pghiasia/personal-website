@@ -30,7 +30,7 @@ export default function Home() {
                   <span className="sr-only">LinkedIn</span>
                 </Button>
               </a>
-              <a href="https://drive.google.com/file/d/1ibdS4qZXalrJ8yDHGyjxblcgFnWbC-Vi/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1zc7mZywR7rNrIdGzA5O2LMTcTONZpTnh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="icon">
                   <FileText className="h-5 w-5" />
                   <span className="sr-only">Resume</span>

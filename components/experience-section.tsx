@@ -16,9 +16,10 @@ export default function ExperienceSection() {
             location="New York, United States"
             date="Sep 2024 - Dec 2024"
             points={[
-              "Engineered AI-driven copywriting prompt templates and scripts using JasperAI and GPT-4",
-              "Developed system prompts tailored to brand identity",
-              "Earned 3 Google certifications covering ads search, performance measurement and online analytics",
+              "Developed the startup’s responsive web app using Next.js, Typescript and TailwindCSS",
+              "Designed RESTful APIs to collect real time real-estate data, lowering the average server response time by 20ms",
+              "Implemented a robust and secure authentication system for subscription payment and login using Supabase’s PostgreSQL database and Firebase’s authentication and password hashing services",
+              "Incorporated a tracking system with Mixpanel and Google Analytics, allowing user traffic optimization by the marketing team and leading to over 10000 user app downloads and a 87% retention rate"
             ]}
           />
           <ExperienceCard

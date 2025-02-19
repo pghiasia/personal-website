@@ -10,14 +10,16 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="min-h-[90vh] flex items-center py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
-          <div className="animate-slide-left opacity-0">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
+      <section className="min-h-[90vh] flex items-center py-12 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="animate-slide-left opacity-0 text-center lg:text-left">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4">
               Hello, I&apos;m <AnimatedText />
             </h1>
-            <p className="text-xl text-muted-foreground mb-8">Full Stack Developer & Computer Science Student</p>
-            <div className="flex space-x-4">
+            <p className="text-lg sm:text-xl text-muted-foreground mb-6 sm:mb-8">
+              Full Stack Developer & Computer Science Student
+            </p>
+            <div className="flex space-x-4 justify-center lg:justify-start">
               <a href="https://github.com/pghiasia" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="icon">
                   <Github className="h-5 w-5" />
@@ -38,23 +40,23 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="relative animate-slide-right opacity-0">
+          <div className="relative animate-slide-right opacity-0 order-first lg:order-last">
             <Image
               src="/IMG_8540.JPG"
               alt="Profile"
               width={500}
               height={500}
-              className="rounded-2xl shadow-xl"
+              className="rounded-2xl shadow-xl mx-auto lg:mx-0 w-[280px] sm:w-[400px] lg:w-[500px]"
             />
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-muted/50">
+      <section id="about" className="py-12 sm:py-20 bg-muted/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-[300px_1fr] gap-12 items-start">
-            <div className="relative">
+          <div className="grid lg:grid-cols-[300px_1fr] gap-8 lg:gap-12 items-start">
+            <div className="relative mx-auto lg:mx-0 w-[200px] lg:w-[300px]">
               <div className="aspect-square overflow-hidden rounded-full">
                 <Image
                   src={'/profile.jpeg'}
@@ -67,8 +69,8 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h2 className="text-4xl font-bold mb-8">About Me</h2>
-              <div className="space-y-6 text-lg text-muted-foreground">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 text-center lg:text-left">About Me</h2>
+              <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-muted-foreground">
                 <p>
                   I&apos;m a passionate full-stack developer and a third year Computer Science student at the
                   University of Waterloo. Having worked an AI co-op and built multiple AI projects, I particularly enjoy
@@ -88,8 +90,8 @@ export default function Home() {
       {/* Experience Section */}
       <section id="experience" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center mb-12">
-            <h2 className="text-4xl font-bold">Experience</h2>
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-8 sm:mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold">Experience</h2>
             <Button variant="outline" asChild>
               <a href="/resume.pdf" download>Download Resume</a>
             </Button>

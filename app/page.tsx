@@ -17,7 +17,7 @@ export default function Home() {
               Hello, I&apos;m <AnimatedText />
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-6 sm:mb-8">
-              Full Stack Developer & Computer Science Student
+              Software Developer & Computer Science Student
             </p>
             <div className="flex space-x-4 justify-center lg:justify-start">
               <a href="https://github.com/pghiasia" target="_blank" rel="noopener noreferrer">
@@ -32,7 +32,7 @@ export default function Home() {
                   <span className="sr-only">LinkedIn</span>
                 </Button>
               </a>
-              <a href="https://drive.google.com/file/d/1zc7mZywR7rNrIdGzA5O2LMTcTONZpTnh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1ksG-3vdOZO8Hbb-bsSvUni53bDINVbVe/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="icon">
                   <FileText className="h-5 w-5" />
                   <span className="sr-only">Resume</span>
@@ -93,7 +93,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-8 sm:mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold">Experience</h2>
             <Button variant="outline" asChild>
-              <a href="/resume.pdf" download>Download Resume</a>
+              <a href="/Summer_2026_Co_op_Resume.pdf" download>Download Resume</a>
             </Button>
           </div>
           <ExperienceSection />

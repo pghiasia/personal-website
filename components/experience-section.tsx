@@ -11,26 +11,27 @@ export default function ExperienceSection() {
       <TabsContent value="technical">
         <div className="space-y-6">
           <ExperienceCard
-            title="Software Engineer (Co-op)"
-            company="Unrepped"
-            location="New York, United States"
-            date="Sep 2024 - Dec 2024"
+            title="Software Developer (Co-op)"
+            company="University Health Network "
+            location="Toronto, Ontario"
+            date="May 2025 – Aug 2025"
             points={[
-              "Developed the startup’s responsive web app using Next.js, Typescript and TailwindCSS",
-              "Designed RESTful APIs to collect real time real-estate data, lowering the average server response time by 20ms",
-              "Implemented a robust and secure authentication system for subscription payment and login using Supabase’s PostgreSQL database and Firebase’s authentication and password hashing services",
-              "Incorporated a tracking system with Mixpanel and Google Analytics, allowing user traffic optimization by the marketing team and leading to over 10000 user app downloads and a 87% retention rate"
+              "Developed the Research and Private Employee Web Applications through dotCMS, using Javascript, React and TailwindCSS for the frontend and Django (Python) for the backend.",
+              "Implemented REST APIs for researcher data retrieval from a PostgreSQL database hosted in Azure Data Studio, resulting in 30% faster data loading.",
+              "Designed and implemented a website-wide semantic search system for the internal self service intranet using Retrieval-Augmented Generation with Pinecone vector database services, combining embeddings-based vector search for document retrieval with OpenAI GPT-4o integration, improving retrieval relevance across 1,000+ entries.",
             ]}
           />
           <ExperienceCard
-            title="AI Software Engineer (Co-op)"
-            company="iGEM Design Team"
-            location="Waterloo, Ontario"
-            date="Jan 2024 - Apr 2024"
+            title="Software Developer (Co-op)"
+            company="Unrepped"
+            location="New York, New York"
+            date="Sep 2024 - Dec 2024"
             points={[
-              "Engineered AI-driven copywriting prompt templates and scripts using JasperAI and GPT-4",
-              "Developed system prompts tailored to brand identity",
-              "Earned 3 Google certifications covering ads search, performance measurement and online analytics",
+              "Developed the web app for the Unrepped home buying assistant using Next.js, Typescript and TailwindCSS.",
+              "Designed REST APIs to collect real time real-estate data, lowering the average server response time by 40%.",
+              "Implemented a secure authentication system for subscription, payment and login using Supabase’s PostgreSQL database and Firebase’s authentication APIs.",
+              "Tracked user activity through Mixpanel integration, allowing user traffic optimization by the marketing team and leading to over 10000 app downloads and a 87% retention rate.",
+              "Wrote 300+ unit tests to ensure user-interface optimization across multiple devices and use cases.",
             ]}
           />
           {/* Add more experience cards as needed */}

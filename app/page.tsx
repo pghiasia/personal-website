@@ -106,22 +106,23 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12">Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="EasyASL"
-              description="An revolutionary AI-powered sign language translation and certification webapp tool."
+              title="LooLines"
+              description="Led the architecture and backend development for a full-stack web-app to estimate the wait times at various food
+              establishments at UWaterloo using Bluetooth RSSI device detection."
               image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zdzhpkEpVt0HW9LnpD3lB73gwtxqF.png"
               link="#"
             />
             <ProjectCard
-              title="FlashNotes"
-              description="A flashcard webapp that uses AI and OCR to generate flashcards from written notes."
+              title="DetectGPT"
+              description="Developed an LLM-content detector, incorporating NLP techniques to detect AI-generated text with 87% accuracy."
               image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zdzhpkEpVt0HW9LnpD3lB73gwtxqF.png"
-              link="#"
+              link=""
             />
             <ProjectCard
-              title="No Hooting Around"
-              description="An AI-powered intelligent distraction blocking Chrome extension that helps you focus on your work."
+              title="Tetris Game Engine"
+              description="Implemented a multi-feature variation of Tetris supporting human-human and human-computer games."
               image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zdzhpkEpVt0HW9LnpD3lB73gwtxqF.png"
-              link="#"
+              link="https://github.com/pghiasia/Biquadris-W24"
             />
           </div>
         </div>

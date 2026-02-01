@@ -11,7 +11,7 @@ export default function ExperienceSection() {
       <TabsContent value="technical">
         <div className="space-y-6">
           <ExperienceCard
-            title="Software Engineer, Backend"
+            title="Software Engineer, Backend (Co-op)"
             company="TextNow"
             location="Waterloo, Ontario"
             date="Jan 2026 – Apr 2026"
@@ -34,7 +34,7 @@ export default function ExperienceSection() {
             ]}
           />
           <ExperienceCard
-            title="Software Developer (Co-op)"
+            title="Software Engineer (Co-op)"
             company="Unrepped"
             location="New York, New York"
             date="Sep 2024 - Dec 2024"

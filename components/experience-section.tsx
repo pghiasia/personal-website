@@ -11,6 +11,18 @@ export default function ExperienceSection() {
       <TabsContent value="technical">
         <div className="space-y-6">
           <ExperienceCard
+            title="Software Engineer, Backend"
+            company="TextNow"
+            location="Waterloo, Ontario"
+            date="Jan 2026 – Apr 2026"
+            points={[
+              "Developed features for the legacy PHP monolith and Go microservices for user upgrades features, as well as Terraform for configuring system infrastructure and monitoring alerts",
+              "Architected and implemented a scalable and fault tolerant request queueing system for a partnership project with CVS with SCS and gRPC, leading to an 87% decrease in latency in the iOS and android API requests",
+              "Streamlined deployment using ArgoCD, AWS and Github Action CI/CD pipelines",
+              "Wrote over 300 unit tests and 50 integration tests across 20 microservices within the product platform, and monitored Datadog metrics and OpenSearch logs for consistency and error prevention during deployments"
+            ]}
+          />
+          <ExperienceCard
             title="Software Developer (Co-op)"
             company="University Health Network "
             location="Toronto, Ontario"

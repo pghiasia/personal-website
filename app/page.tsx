@@ -93,7 +93,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-8 sm:mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold">Experience</h2>
             <Button variant="outline" asChild>
-              <a href="/Summer_2026_Co_op_Resume.pdf" download>Download Resume</a>
+              <a href="/Summer_2026_Resume_Parsa_Ghiasian.pdf" download>Download Resume</a>
             </Button>
           </div>
           <ExperienceSection />

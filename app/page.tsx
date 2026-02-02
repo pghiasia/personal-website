@@ -109,19 +109,19 @@ export default function Home() {
               title="LooLines"
               description="Led the architecture and backend development for a full-stack web-app to estimate the wait times at various food
               establishments at UWaterloo using Bluetooth RSSI device detection."
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zdzhpkEpVt0HW9LnpD3lB73gwtxqF.png"
+              image="/loolines.jpg"
               link="#"
             />
             <ProjectCard
               title="DetectGPT"
               description="Developed an LLM-content detector, incorporating NLP techniques to detect AI-generated text with 87% accuracy."
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zdzhpkEpVt0HW9LnpD3lB73gwtxqF.png"
+              image="/detectgpt.jpg"
               link=""
             />
             <ProjectCard
               title="Tetris Game Engine"
               description="Implemented a multi-feature variation of Tetris supporting human-human and human-computer games."
-              image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-5zdzhpkEpVt0HW9LnpD3lB73gwtxqF.png"
+              image="/tetris.jpg"
               link="https://github.com/pghiasia/Biquadris-W24"
             />
           </div>

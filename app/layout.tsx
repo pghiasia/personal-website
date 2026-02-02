@@ -12,10 +12,8 @@ export const metadata: Metadata = {
   description: "Personal portfolio website",
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon.png' },
+      { url: '/favico.ico' },
     ],
-    apple: '/apple-touch-icon.png',
   },
 }
 

@@ -10,11 +10,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Parsa Ghiasian | Portfolio",
   description: "Personal portfolio website",
-  icons: {
-    icon: [
-      { url: '/favico.ico' },
-    ],
-  },
 }
 
 export default function RootLayout({

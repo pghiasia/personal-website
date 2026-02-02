@@ -30,7 +30,7 @@ export default function RootLayout({
           <main className="pt-16">{children}</main>
           <footer className="border-t mt-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex justify-between items-center">
-              <p className="text-sm text-gray-500">© 2025 Parsa Ghiasian. All Rights Reserved.</p>
+              <p className="text-sm text-gray-500">© {new Date().getFullYear()} Parsa Ghiasian. All Rights Reserved.</p>
               <p className="text-sm text-gray-500">Made with 💙 using Next.js</p>
             </div>
           </footer>
